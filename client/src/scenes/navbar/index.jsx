@@ -39,9 +39,9 @@ const Navbar = () => {
   const primaryLight = theme.palette.primary.light;
   const alt = theme.palette.background.alt;
 
-  // const fullName = `${user.firstName} ${user.lastName}`;
+  const fullName = `${user.firstName} ${user.lastName}`;
 
-  const fullName = `John Hoang`;
+  // const fullName = `John Hoang`;
 
   return (
     <FlexBetween padding="1rem 6%" backgroundColor={alt}>
@@ -85,9 +85,11 @@ const Navbar = () => {
               <LightMode sx={{ color: dark, fontSize: "25px" }} />
             )}
           </IconButton>
-          <Message sx={{ fontSize: "25px" }} />
+
+          {/* <Message sx={{ fontSize: "25px" }} />
           <Notifications sx={{ fontSize: "25px" }} />
-          <Help sx={{ fontSize: "25px" }} />
+          <Help sx={{ fontSize: "25px" }} /> */}
+
           <FormControl variant="standard" value={fullName}>
             <Select
               value={fullName}
@@ -160,9 +162,11 @@ const Navbar = () => {
                 <LightMode sx={{ color: dark, fontSize: "25px" }} />
               )}
             </IconButton>
-            <Message sx={{ fontSize: "25px" }} />
+
+            {/* <Message sx={{ fontSize: "25px" }} />
             <Notifications sx={{ fontSize: "25px" }} />
-            <Help sx={{ fontSize: "25px" }} />
+            <Help sx={{ fontSize: "25px" }} /> */}
+
             <FormControl variant="standard" value={fullName}>
               <Select
                 value={fullName}

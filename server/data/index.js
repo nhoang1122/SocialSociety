@@ -149,8 +149,8 @@ export const posts = [
     firstName: "Levi",
     lastName: "Ackerman",
     location: "Marley,AOT",
-    description: "Some really long random description",
-    picturePath: "post1.jpeg",
+    description: "Come on Zeke! Fight me you FURR BALL!",
+    picturePath: "BeastTitan.webp",
     userPicturePath: "levi.jpg",
     likes: new Map([
       [userIds[0], true],
@@ -171,8 +171,8 @@ export const posts = [
     lastName: "Hatake",
     location: "Hidden Leaf Village",
     description:
-      "Another really long random description. This one is longer than the previous one.",
-    picturePath: "post2.jpeg",
+      "So proud of you 3! I couldn't have asked for better students.",
+    picturePath: "TeamSeven.webp",
     userPicturePath: "kakashi.webp",
     likes: new Map([
       [userIds[7], true],
@@ -194,8 +194,8 @@ export const posts = [
     lastName: "Tomioka",
     location: "Nogata, Nakano",
     description:
-      "This is the last really long random description. This one is longer than the previous one.",
-    picturePath: "post3.jpeg",
+      "I miss the beach :( #WaterHashira",
+    picturePath: "Beach.jpg",
     userPicturePath: "giyu.webp",
     likes: new Map([
       [userIds[1], true],
@@ -218,8 +218,8 @@ export const posts = [
     lastName: "Luffy",
     location: "Dawn Island",
     description:
-      "This is the last really long random description. This one is longer than the previous one. Man I'm bored. I'm going to keep typing until I run out of things to say.",
-    picturePath: "post4.jpeg",
+      "I owe my life to you two! MY TWO WINGS.",
+    picturePath: "SanjiZoro.jpg",
     userPicturePath: "luffy.jpg",
     likes: new Map([
       [userIds[1], true],
@@ -237,13 +237,36 @@ export const posts = [
   },
   {
     _id: new mongoose.Types.ObjectId(),
+    userId: userIds[0],
+    firstName: "Yukihira",
+    lastName: "Soma",
+    location: "Polar Star",
+    description:
+      "Dinner is SERVED! Chaliapin Steak Don!",
+    picturePath: "FoodWars.webp",
+    userPicturePath: "yukihira.webp",
+    likes: new Map([
+      [userIds[7], true],
+      [userIds[4], true],
+      [userIds[1], true],
+      [userIds[2], true],
+    ]),
+    comments: [
+      "one more random comment",
+      "and another random comment",
+      "no more random comments",
+      "I lied, one more random comment",
+    ],
+  },
+  {
+    _id: new mongoose.Types.ObjectId(),
     userId: userIds[6],
     firstName: "Future",
     lastName: "Trunks",
     location: "Earth",
     description:
-      "Just a short description. I'm tired of typing. I'm going to play video games now.",
-    picturePath: "post5.jpeg",
+      "Missing my crazy family!",
+    picturePath: "DBZ.webp",
     userPicturePath: "trunks.jpg",
     likes: new Map([
       [userIds[1], true],
@@ -266,8 +289,8 @@ export const posts = [
     lastName: "Zoldyck",
     location: "Kukuroo Mountain",
     description:
-      "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
-    picturePath: "post6.jpeg",
+      "That's my BestFriend!",
+    picturePath: "Gon.webp",
     userPicturePath: "killua.jpg",
     likes: new Map([
       [userIds[1], true],
